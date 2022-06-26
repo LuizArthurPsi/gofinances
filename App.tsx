@@ -7,7 +7,7 @@ import Welcome from './src/Components/Dashboard';
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
-    <Welcome title='Hello World'/>
+      <Welcome title="Hello World" />
     </ThemeProvider>
   );
 }
