@@ -7,7 +7,7 @@ interface Props {
     title: string;
 }
 
-export default function Welcome({title}: Props) {
+export default function Dashboard({title}: Props) {
   return (<View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
       <Text>{title}</Text>
   </View>)
